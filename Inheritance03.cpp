@@ -13,7 +13,7 @@ class Teacher{
             cout<<name<<endl<<age<<endl<<address<<endl;
         }
 };
-class NatPhone: public LocalPhone{
+class Writer{
     protected:
         int books;
         string name, address;
