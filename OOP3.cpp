@@ -1,10 +1,11 @@
 #include<iostream>
 using namespace std;
-
+class DM;
 class DB{
     private:
-        int i, f, total_i;
+ 
     public:
+       int i, f, total_i;
         DB(int a, int b){
             i = a;
             f = b;
@@ -16,8 +17,8 @@ class DB{
 
 class DM{
     private:
-        int m, cm, total_cm;
     public:
+        int m, cm, total_cm;
         DM(int a, int b){
             m = a;
             cm = b;
