@@ -32,7 +32,7 @@ DM DM_dis(DB a, DM b){
     DM total;
     total.total_cm = b.total_cm + a.total_i*2.54;
     total.m = total.total_cm/100;
-    total.cm = total.total.cm%100;
+    total.cm = total.total_cm%100;
     return total;
 }
 
@@ -40,7 +40,7 @@ DB DB_dis(DB a, DM b){
     DB total;
     total.total_i = a.total_i + b.total_cm*0.394;
     total.f = total.total_i/12;
-    total.i = total.total.i%12;
+    total.i = total.total_i%12;
     return total;
 }
 int main(){
